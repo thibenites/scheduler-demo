@@ -10,7 +10,7 @@ int main() {
   for (int i=1; i<(n+1); i++) { //começo na iteração 1, para facilitar a conta de resto (%), terminando na (n+1), obviamente
     flag = 0;           //zera a flag no início de cada iteração
     if(i%a[0] == 0){    //conta para ver se esta tarefa deve ocorrer nesta iteração, caso resto igual a zero, deve acontecer
-        printf("0");    //impressão da tarefa
+        printf("0");    //impressão da tarefa que ocorreu
         flag = 1;       //flag para inidcar que houve tarefa
     }
     if(i%a[1] == 0){
